@@ -1,0 +1,4 @@
+# Dependencies for remote Google Colab runtime (GPU training & inference)
+# Note: torch, transformers, datasets, peft, accelerate, pydantic are pre-installed in Google Colab.
+trl>=1.17.0
+bitsandbytes>=0.50.0

@@ -1,0 +1,59 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments & virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# Model weights, checkpoints, adapters & large artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.gguf
+checkpoints/
+adapters/
+models/
+
+# Datasets
+dataset/raw/
+dataset/cache/
+*.parquet
+*.arrow
+
+# Credentials & secrets
+credentials.json
+token.json
+*.pickle
+client_secrets.json
+.env
+.env.*
+
+# Experiment outputs & runs
+experiments/*.log
+wandb/
+runs/
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+COLAB_SKILL.md

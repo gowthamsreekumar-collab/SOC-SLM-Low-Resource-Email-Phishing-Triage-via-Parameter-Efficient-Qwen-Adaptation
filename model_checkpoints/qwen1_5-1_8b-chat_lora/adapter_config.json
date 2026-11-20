@@ -1,0 +1,28 @@
+{
+  "base_model_name_or_path": "Qwen/Qwen1.5-1.8B-Chat",
+  "bias": "none",
+  "fan_in_fan_out": false,
+  "inference_mode": true,
+  "init_lora_weights": true,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "modules_to_save": null,
+  "peft_type": "LORA",
+  "peft_version": "0.21.2",
+  "r": 16,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "task_type": "CAUSAL_LM",
+  "training_method": "LoRA (FP16 Base Adapter)",
+  "trained_timestamp": "2026-11-15T07:51:31.368737",
+  "final_loss": 0.396,
+  "epochs": 3,
+  "batch_size": 1,
+  "learning_rate": 0.0002,
+  "trainable_parameters": 6291456,
+  "total_parameters": 1840000000
+}

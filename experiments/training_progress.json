@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "percent": 100.0,
+  "current_step": 420,
+  "total_steps": 420,
+  "final_loss": 0.4515,
+  "peak_vram_mb": 5440.0,
+  "adapter_dir": "model_checkpoints\\qwen2_5-1_5b-instruct_qlora",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "method": "QLoRA (4-bit NF4 Quantization) \u2014 Recommended (<6GB VRAM)"
+}

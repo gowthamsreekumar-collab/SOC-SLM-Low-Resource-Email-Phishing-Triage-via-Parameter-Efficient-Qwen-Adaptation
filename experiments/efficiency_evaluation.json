@@ -1,0 +1,56 @@
+{
+  "models": {
+    "Base": {
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "precision": "FP16 (Zero-shot)",
+      "quantization": "None",
+      "total_params": 1548072448,
+      "trainable_params": 0,
+      "trainable_pct": 0.0,
+      "peak_training_vram_mb": 0.0,
+      "inference_vram_mb": 3715.355136,
+      "mean_latency_sec": 9.597857233456203,
+      "total_inference_time_sec": 672.0,
+      "accuracy": 0.3142857142857143,
+      "f1_macro": 0.17886178861788618,
+      "adapter_disk_size_mb": 0.0
+    },
+    "LoRA": {
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct + LoRA",
+      "precision": "FP16 (Unquantized Base)",
+      "quantization": "None",
+      "total_params": 1548072448,
+      "trainable_params": 4358144,
+      "trainable_pct": 0.2815,
+      "peak_training_vram_mb": 12872.99,
+      "inference_vram_mb": 6832.815616,
+      "mean_latency_sec": 9.382577170644488,
+      "total_inference_time_sec": 656.78,
+      "accuracy": 0.9142857142857143,
+      "f1_macro": 0.6268398268398269,
+      "adapter_disk_size_mb": 17.4
+    },
+    "QLoRA": {
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct + QLoRA (NF4)",
+      "precision": "4-bit NF4 + FP16 LoRA Adapters",
+      "quantization": "BitsAndBytes 4-bit NF4 Double Quant",
+      "total_params": 1548072448,
+      "trainable_params": 4358144,
+      "trainable_pct": 0.2815,
+      "peak_training_vram_mb": 5572.0,
+      "inference_vram_mb": 4854.921875,
+      "mean_latency_sec": 13.030043121746608,
+      "total_inference_time_sec": 912.1,
+      "accuracy": 0.8714285714285714,
+      "f1_macro": 0.6049631120053655,
+      "adapter_disk_size_mb": 17.4
+    }
+  },
+  "comparative_analysis": {
+    "training_vram_reduction_pct": 56.71557268358012,
+    "inference_vram_reduction_pct": 28.946979578498844,
+    "latency_overhead_pct": 38.87488357158459,
+    "accuracy_delta_pct": 4.285714285714281,
+    "trainable_parameter_reduction_ratio": "355.2x"
+  }
+}

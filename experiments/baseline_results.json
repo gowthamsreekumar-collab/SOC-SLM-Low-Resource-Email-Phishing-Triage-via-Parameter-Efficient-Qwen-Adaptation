@@ -1,0 +1,65 @@
+{
+  "model": "Baseline (zero-shot)",
+  "accuracy": 0.3142857142857143,
+  "f1_macro": 0.17886178861788618,
+  "precision_macro": 0.14965986394557823,
+  "recall_macro": 0.2222222222222222,
+  "false_positive_rate": 0.2857142857142857,
+  "confusion_matrix": [
+    [
+      0,
+      10,
+      25
+    ],
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      11,
+      22
+    ]
+  ],
+  "classification_report": {
+    "benign": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 35.0
+    },
+    "phishing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "suspicious": {
+      "precision": 0.4489795918367347,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5365853658536586,
+      "support": 33.0
+    },
+    "accuracy": 0.3142857142857143,
+    "macro avg": {
+      "precision": 0.14965986394557823,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.17886178861788618,
+      "support": 70.0
+    },
+    "weighted avg": {
+      "precision": 0.21166180758017492,
+      "recall": 0.3142857142857143,
+      "f1-score": 0.2529616724738676,
+      "support": 70.0
+    }
+  },
+  "mean_latency_sec": 9.597857233456203,
+  "total_inference_time_sec": 671.8500063419342,
+  "parse_failure_rate": 0.0,
+  "hallucination_rate": 0.34285714285714286,
+  "abstention_accuracy": 0.0,
+  "abstention_total": 0,
+  "peak_gpu_mb": 3715.355136
+}

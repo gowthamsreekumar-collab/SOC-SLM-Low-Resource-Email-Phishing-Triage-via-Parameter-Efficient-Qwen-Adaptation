@@ -1,0 +1,35 @@
+{
+  "dataset_size": 70,
+  "ground_truth_baseline": {
+    "evidence_groundedness_rate": 0.32432432432432434,
+    "severity_consistency_rate": 1.0,
+    "total_evidence_items": 74,
+    "techniques_identified": []
+  },
+  "model_performance_summary": {
+    "Baseline": {
+      "accuracy": 0.3142857142857143,
+      "f1_macro": 0.17886178861788618,
+      "false_positive_rate": 0.2857142857142857,
+      "hallucination_rate": 0.34285714285714286,
+      "parse_failure_rate": 0.0
+    },
+    "LoRA": {
+      "accuracy": 0.9142857142857143,
+      "f1_macro": 0.6268398268398269,
+      "false_positive_rate": 0.0,
+      "hallucination_rate": 0.1,
+      "parse_failure_rate": 0.0
+    },
+    "QLoRA": {
+      "accuracy": 0.8714285714285714,
+      "f1_macro": 0.6049631120053655,
+      "false_positive_rate": 0.02857142857142857,
+      "hallucination_rate": 0.04285714285714286,
+      "parse_failure_rate": 0.0
+    }
+  },
+  "mitre_evaluation": {
+    "top_techniques": []
+  }
+}
