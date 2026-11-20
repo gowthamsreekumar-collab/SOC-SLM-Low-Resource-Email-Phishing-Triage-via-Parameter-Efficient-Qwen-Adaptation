@@ -1,0 +1,2 @@
+# SOC-SLM-Low-Resource-Email-Phishing-Triage-via-Parameter-Efficient-Qwen-Adaptation
+Local Tier-1 SOC assistant fine-tuning Qwen2.5-1.5B with LoRA &amp; 4-bit QLoRA for evidence-grounded email phishing triage. Features automated MITRE ATT&amp;CK mapping, prompt injection defense, explicit uncertainty abstention, and an interactive Streamlit workbench. Achieves 91.4% accuracy, 0% FPR, and &lt;6GB VRAM edge deployment.
